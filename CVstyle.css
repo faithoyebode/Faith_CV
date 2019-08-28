@@ -1,0 +1,131 @@
+body {
+    --red-on-blue: #ed1c24;
+    --dark-blue: #282238;
+    --dark-red: #be1e2d;
+    font-family: Helvetica Arial;
+    font-size: 16px;
+}
+div#header{
+    background-image: linear-gradient(
+                        to top left,    
+                        var(--dark-red),
+                        var(--dark-blue)
+                        );
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    color: white;
+    padding-bottom: 10px;
+}
+div#header img{
+    width: 130px;
+    height: 120px;
+    margin-top: 8px;
+    margin-right: 100px;
+    border-radius: 60% / 60%;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: white;
+}
+div#header + h3 {
+    margin-top: 0px;
+}
+h3.subtitle {
+    background-color: var(--dark-blue);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+h3.subtitle > ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+div.section {
+    position: relative;
+}
+.vertical-line{
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    position: absolute;
+    left: 70%;
+    background-color: var(--dark-blue);
+    padding-top: 2px;
+}
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+    background-color: var(--red-on-blue);
+}
+.year {
+    position: relative;
+    text-align: right;
+    margin-left: auto;
+    font-weight: bold;
+    color: var(--dark-blue);
+    font-size: 20px;
+    margin-top: 5px;
+}
+div.circle#one {
+    top: 2px;
+}
+div.circle#two {
+    top: 46px;
+}
+div.circle#three {
+    top: 2px;
+}
+div.circle#four {
+    top: 28px;
+}   
+div.circle#five {
+    top: 16px;
+}
+div.circle#six {
+    top: 130px;
+}
+div.circle#seven {
+    top: 410px;
+}
+.content {
+    display: flex;
+    margin-top: 0px;
+}
+div.content p {
+    margin-top: 0px;
+}
+div.content h4 {
+    margin-top: 15px;    
+}
+div.exp-section p {
+    margin-top: -10px;
+}
+div.exp-section h4 {
+    color: var(--red-on-blue);
+}
+span {
+    display: inline-block;
+    margin-left: 50px;
+}
+div.duty {
+    display: flex;
+}
+div.duty:first-child {
+    font-weight: bold;
+}
+div.duty #duty{
+    margin-left: 0px;
+    font-weight: bold;
+}
+div.duty p{
+    margin-left: 55px;
+}
+ul {
+    margin-left: 50px;
+}
+div.exp-section p.year{
+    margin-top: 13px;
+}
