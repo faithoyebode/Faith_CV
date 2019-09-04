@@ -129,3 +129,62 @@ ul {
 div.exp-section p.year{
     margin-top: 13px;
 }
+/* Contact form design */
+input {
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid var(--dark-blue);
+    height: 25px;
+    width: 300px;
+    margin-left: 50px;
+    text-align: center;
+}
+input#name {
+    margin-left: 52px;
+}
+input:focus {
+    border-color: var(--dark-red);
+    outline-width: 0px;
+}
+form div {
+    position: relative;
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    text-align: right;  
+}
+textarea#msg {
+    display: inline-block;
+    margin-left: 33px;
+    border-radius: 10px;
+    border: 1px solid var(--dark-blue);
+    height: 100px;
+    width: 300px;
+}
+textarea#msg:focus {
+    outline-width: 0px;
+    border-color: var(--dark-red);
+}
+label[for="msg"] {
+    display: inline-block;
+    top: 0px;
+    left: 450px;
+    vertical-align: top;
+}
+input#title {
+    margin-left: 60px;
+}
+input#send {
+    background-color: var(--red-on-blue);
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-color: var(--red-on-blue);
+    border-radius: 60px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+input#send:hover {
+    background-color: var(--dark-blue);
+}
